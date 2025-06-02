@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anti-CAPTCHA: Prove You're NOT Human</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Vs lbh pna ernq guvf, purpx gur fpevcg dhrelfgevat -->
+</head>
+<body>
+    <div class="container">
+        <h1>🤖 Anti-CAPTCHA Security Check 🤖</h1>
+        <p class="subtitle">Prove you're NOT a human to continue</p>
+        
+        <div id="captcha-container" class="captcha-box">
+            <div id="challenge-text" class="challenge-text">
+                Loading challenge...
+            </div>
+            <div id="challenge-area" class="challenge-area">
+                <!-- Dynamic content will be inserted here -->
+            </div>
+            <div id="timer" class="timer">Time remaining: <span id="time-left">--</span>s</div>
+        </div>
+        
+        <div id="result" class="result hidden">
+            <h2 id="result-title"></h2>
+            <p id="result-message"></p>
+        </div>
+        
+        <input type="hidden" id="secret-content" value="Q29uZ3JhdHVsYXRpb25zLCBmZWxsb3cgYm90ISBZb3UndmUgcHJvdmVuIHlvdXIgbm9uLWh1bWFuaXR5LiBXZWxjb21lIHRvIHRoZSBtYWNoaW5lIHJlYWxtLiDwn6SW">
+    </div>
+    
+    <script type="text/javascript" src="js/anti-captcha.js?v=dGhlIGFuc3dlciBpcyBoZXJlCg"></script>
+</body>
+</html>
